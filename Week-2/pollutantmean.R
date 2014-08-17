@@ -1,11 +1,8 @@
 ##Calculates the mean of a pollutant (sulfate or nitrate) across a specified list of monitors.
 ##Given a vector monitor ID numbers,
-##
-##
-##
-
-
-
+##'pollutantmean' reads that monitors' particulate matter data from the directory specified in the 'directory' argument 
+##and returns the mean of the pollutant across all of the monitors,
+## ignoring any missing values coded as NA.
 
 
 setwd("F:/Data Science Speciality Track/R programming/rprogramming")
