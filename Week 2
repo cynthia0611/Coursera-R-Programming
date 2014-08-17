@@ -35,3 +35,4 @@ pollutantmean <- function(directory, pollutant = "sulfate", id = 1:332) {
   result <- mean(mean_vector)
   return(round(result, 3)) 
 }
+
