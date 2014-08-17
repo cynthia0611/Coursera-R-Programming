@@ -1,3 +1,13 @@
+##Calculates the mean of a pollutant (sulfate or nitrate) across a specified list of monitors.
+##Given a vector monitor ID numbers,
+##
+##
+##
+
+
+
+
+
 setwd("F:/Data Science Speciality Track/R programming/rprogramming")
 #getwd()
 #list.files()
