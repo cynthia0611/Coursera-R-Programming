@@ -1,3 +1,10 @@
+##Calculates the mean of a pollutant (sulfate or nitrate) across a specified list of monitors.
+##Given a vector monitor ID numbers,
+##'pollutantmean' reads that monitors' particulate matter data from the directory specified in the 'directory' argument 
+##and returns the mean of the pollutant across all of the monitors,
+## ignoring any missing values coded as NA.
+
+
 setwd("F:/Data Science Speciality Track/R programming/rprogramming")
 #getwd()
 #list.files()
@@ -35,3 +42,14 @@ pollutantmean <- function(directory, pollutant = "sulfate", id = 1:332) {
   result <- mean(mean_vector)
   return(round(result, 3)) 
 }
+<<<<<<< HEAD:Week 2
+=======
+##Test
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+## [1] 4.064
+pollutantmean("specdata", "nitrate", 70:72)
+## [1] 1.706
+pollutantmean("specdata", "nitrate", 23)
+## [1] 1.281
+>>>>>>> origin/master:Week-2/pollutantmean.R
