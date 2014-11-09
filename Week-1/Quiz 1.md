@@ -1,10 +1,11 @@
 ####Question 1
 R was developed by statisticians working at
-
+#####Answer
 **The University of Auckland**
 
 ####Question 2
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
+#####Answer
 * The freedom to study how the program works, and adapt it to your needs.
 * The freedom to run the program, for any purpose.
 * The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
@@ -12,6 +13,7 @@ The definition of free software consists of four freedoms (freedoms 0 through 3)
 
 ####Question 3
 In R the following are all atomic data types EXCEPT
+#####Answer
 * integer
 * complex
 * numeric
@@ -19,6 +21,7 @@ In R the following are all atomic data types EXCEPT
 
 ####Question 4
 If I execute the expression x <- 4 in R, what is the class of the object 'x' as determined by the 'class()' function?
+#####Answer
 - real
 - numeric
 - complex
@@ -26,6 +29,7 @@ If I execute the expression x <- 4 in R, what is the class of the object 'x' as 
 
 ####Question 5
 What is the class of the object defined by the expression x <- c(4, "a", TRUE)?
+#####Answer
 - numeric
 - character
 - mixed
@@ -33,6 +37,7 @@ What is the class of the object defined by the expression x <- c(4, "a", TRUE)?
 
 ####Question 6
 If I have two vectors x <- c(1,3, 5) and y <- c(3, 2, 10), what is produced by the expression cbind(x, y)?
+#####Answer
 - a numeric matrix with 3 rows and 2 columns
 - a 3 by 3 matrix
 - a 2 by 3 matrix
@@ -40,6 +45,7 @@ If I have two vectors x <- c(1,3, 5) and y <- c(3, 2, 10), what is produced by t
 
 ####Question 7
 A key property of vectors in R is that
+#####Answer
 - a vector cannot have have attributes like dimensions
 - the length of a vector must be less than 32,768
 - elements of a vector can be of different classes
@@ -47,6 +53,7 @@ A key property of vectors in R is that
 
 ####Question 8
 Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[1]] give me?
+#####Answer
 - a numeric vector containing the element 2.
 - a character vector containing the element "2".
 - a list containing a numeric vector of length 1.
@@ -55,12 +62,14 @@ Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[1]] 
 ####Question 9
 Suppose I have a vector x <- 1:4 and y <- 2:3. What is produced by the expression x + y?
 an error.
+#####Answer
 - a numeric vector with the values 1, 2, 5, 7.
 - a numeric vector with the values 3, 5, 3, 4.
 - an integer vector with the values 3, 5, 5, 7.
 
 ####Question 10
 Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this?
+#####Answer
 - x[x > 4] <- 10
 - x[x == 10] <- 4
 - x[x >= 11] <- 4
@@ -89,7 +98,7 @@ Extract the first 2 rows of the data frame and print them to the console. What d
 ```
 #####Explanation
 ```
-head(data,2)
+> head(data,2)
 Ozone Solar.R Wind Temp Month Day
 1 41 190 7.4 67 5 1
 2 36 118 8.0 72 5 2
@@ -97,14 +106,15 @@ Ozone Solar.R Wind Temp Month Day
 ------------------------------------
 ####Question 13
 How many observations (i.e. rows) are in this data frame?
-- 153
-- 45
-- 160
-- 129
+#####Answer
+```
+153
+```
+- #####Explanation
 
 ####Question 14
 Extract the last 2 rows of the data frame and print them to the console. What does the output look like?
-
+#####Answer
   > Ozone Solar.R Wind Temp Month Day
 - 152    11      44  9.7   62     5  20
 - 153   108     223  8.0   85     7  25
@@ -123,6 +133,7 @@ Extract the last 2 rows of the data frame and print them to the console. What do
 
 ####Question 15
 What is the value of Ozone in the 47th row?
+#####Answer
 - 63
 - 21
 - 18
