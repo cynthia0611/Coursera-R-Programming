@@ -7,7 +7,7 @@ R was developed by statisticians working at
 * **The University of Auckland**
 
 
-Question 2
+#####Question 2
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
 The freedom to study how the program works, and adapt it to your needs.
 The freedom to run the program, for any purpose.
