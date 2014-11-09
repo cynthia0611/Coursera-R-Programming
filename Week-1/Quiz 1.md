@@ -84,23 +84,22 @@ Ozone, Solar.R, Wind, Temp, Month, Day
 ```
 
 #####Question 12
+===============
 Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
 
-  > Ozone Solar.R Wind Temp Month Day
-- 1    18     224 13.8   67     9  17
-- 2    NA     258  9.7   81     7  22
-
-  > Ozone Solar.R Wind Temp Month Day
-- 1    41     190  7.4   67     5   1
-- 2    36     118  8.0   72     5   2
-
-  > Ozone Solar.R Wind Temp Month Day
-- 1     9      24 10.9   71     9  14
-- 2    18     131  8.0   76     9  29
-
-  > Ozone Solar.R Wind Temp Month Day
-- 1     7      NA  6.9   74     5  11
-- 2    35     274 10.3   82     7  17
+####Answer
+```
+  Ozone Solar.R Wind Temp Month Day
+1    41   190   7.4   67     5   1
+2    36   118   8.0   72     5   2
+```
+####Explanation
+```
+head(data,2)
+Ozone Solar.R Wind Temp Month Day
+1 41 190 7.4 67 5 1
+2 36 118 8.0 72 5 2
+```
 
 #####Question 13
 How many observations (i.e. rows) are in this data frame?
