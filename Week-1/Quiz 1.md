@@ -77,20 +77,6 @@ In the dataset provided for this Quiz, what are the column names of the dataset?
 - Month, Day, Temp, Wind
 - Ozone, Solar.R, Wind
 
-data<-read.table('H:/Desktop/Data Specialist/R programming/Quiz1/rprog_data_quiz1_data/hw1_data.csv',header=TRUE,sep=",")
-data
-    Ozone Solar.R Wind Temp Month Day
-1      41     190  7.4   67     5   1
-2      36     118  8.0   72     5   2
-head(data)
-  Ozone Solar.R Wind Temp Month Day
-1    41     190  7.4   67     5   1
-2    36     118  8.0   72     5   2
-3    12     149 12.6   74     5   3
-4    18     313 11.5   62     5   4
-5    NA      NA 14.3   56     5   5
-6    28      NA 14.9   66     5   6
-
 #####Question 12
 Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
 
@@ -112,69 +98,69 @@ Extract the first 2 rows of the data frame and print them to the console. What d
 
 #####Question 13
 How many observations (i.e. rows) are in this data frame?
-153
-45
-160
-129
+- 153
+- 45
+- 160
+- 129
 
 #####Question 14
 Extract the last 2 rows of the data frame and print them to the console. What does the output look like?
 
-    Ozone Solar.R Wind Temp Month Day
+-    Ozone Solar.R Wind Temp Month Day
 152    11      44  9.7   62     5  20
 153   108     223  8.0   85     7  25
 
-    Ozone Solar.R Wind Temp Month Day
+-    Ozone Solar.R Wind Temp Month Day
 152    18     131  8.0   76     9  29
 153    20     223 11.5   68     9  30
 
-    Ozone Solar.R Wind Temp Month Day
+-    Ozone Solar.R Wind Temp Month Day
 152    31     244 10.9   78     8  19
 153    29     127  9.7   82     6   7
 
-    Ozone Solar.R Wind Temp Month Day
+-    Ozone Solar.R Wind Temp Month Day
 152    34     307 12.0   66     5  17
 153    13      27 10.3   76     9  18
 
 #####Question 15
 What is the value of Ozone in the 47th row?
-63
-21
-18
-34
+- 63
+- 21
+- 18
+- 34
 
 #####Question 16
 How many missing values are in the Ozone column of this data frame?
-78
-9
-37
-43
+- 78
+- 9
+- 37
+- 43
 
 #####Question 17
 What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
-31.5
-42.1
-18.0
-53.2
+- 31.5
+- 42.1
+- 18.0
+- 53.2
 
 #####Question 18
 Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
-212.8
-334.0
-205.0
-185.9
+- 212.8
+- 334.0
+- 205.0
+- 185.9
 
 #####Question 19
 What is the mean of "Temp" when "Month" is equal to 6?
-79.1
-90.2
-85.6
-75.3
+- 79.1
+- 90.2
+- 85.6
+- 75.3
 
 #####Question 20
 What was the maximum ozone value in the month of May (i.e. Month = 5)?
-115
-97
-100
-18
+- 115
+- 97
+- 100
+- 18
 
