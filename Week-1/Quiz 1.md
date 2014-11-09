@@ -1,11 +1,7 @@
 #####Question 1
 R was developed by statisticians working at
 
-* Johns Hopkins University
-* Microsoft
-* Insightful
-* **The University of Auckland**
-
+**The University of Auckland**
 
 #####Question 2
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
@@ -71,7 +67,7 @@ Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all e
 - x[x > 10] == 4
 
 #####Question 11
-======================
+---------------------------
 In the dataset provided for this Quiz, what are the column names of the dataset?
 1, 2, 3, 4, 5, 6
 ####Answer
@@ -84,7 +80,7 @@ Ozone, Solar.R, Wind, Temp, Month, Day
 ```
 
 #####Question 12
-===============
+----------------------
 Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
 
 ####Answer
