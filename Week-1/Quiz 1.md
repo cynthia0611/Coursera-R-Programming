@@ -1,7 +1,9 @@
 ####Question 1
 R was developed by statisticians working at
 #####Answer
-**The University of Auckland**
+```
+The University of Auckland
+```
 
 ####Question 2
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
@@ -163,29 +165,57 @@ How many missing values are in the Ozone column of this data frame?
 -------------------------------
 ####Question 17
 What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
-- 31.5
-- 42.1
-- 18.0
-- 53.2
-
+#####Answer
+```
+42.1
+```
+#####Explanation
+```
+> datanotna<-subset(data,!is.na(Ozone))
+> apply(datanotna,2,mean)
+    Ozone   Solar.R      Wind      Temp     Month       Day 
+42.129310        NA  9.862069 77.870690  7.198276 15.534483 
+```
+-----------------------------
 ####Question 18
 Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
-- 212.8
-- 334.0
-- 205.0
-- 185.9
-
+#####Answer
+```
+212.8
+```
+#####Explanation
+```
+> datasub18<-subset(data,data$Ozone>31 & data$Temp>90,select=Solar.R)
+> apply(datasub18,2,mean)
+Solar.R 
+  212.8 
+```
+----------------------------------
 ####Question 19
 What is the mean of "Temp" when "Month" is equal to 6?
-- 79.1
-- 90.2
-- 85.6
-- 75.3
-
+#####Answer
+```
+79.1
+```
+#####Explanation
+```
+> datasub19<-subset(data,data$Month==6,select=Temp)
+> apply(datasub19,2,mean)
+Temp 
+79.1 
+```
+-----------------------------
 ####Question 20
 What was the maximum ozone value in the month of May (i.e. Month = 5)?
-- 115
-- 97
-- 100
-- 18
+#####Answer
+```
+115
+```
+#####Explanation
+```
+> datasub20<-subset(data,!is.na(Ozone)&data$Month==5,select=Ozone)
+> apply(datasub20,2,max)
+Ozone 
+  115 
+```
 
