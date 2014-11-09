@@ -71,11 +71,17 @@ Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all e
 - x[x > 10] == 4
 
 #####Question 11
+======================
 In the dataset provided for this Quiz, what are the column names of the dataset?
 1, 2, 3, 4, 5, 6
-- Ozone, Solar.R, Wind, Temp, Month, Day
-- Month, Day, Temp, Wind
-- Ozone, Solar.R, Wind
+####Answer
+Ozone, Solar.R, Wind, Temp, Month, Day
+####Explanation
+```
+> data<-read.table('H:/Desktop/Data Specialist/R programming/Quiz1/rprog_data_quiz1_data/hw1_data.csv',header=TRUE,sep=",")
+> head(data)
+  Ozone Solar.R Wind Temp Month Day
+```
 
 #####Question 12
 Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
