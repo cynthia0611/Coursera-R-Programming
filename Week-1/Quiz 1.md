@@ -4,7 +4,7 @@ R was developed by statisticians working at
 * Johns Hopkins University
 * Microsoft
 * Insightful
-**The University of Auckland**
+* **The University of Auckland**
 
 
 Question 2
