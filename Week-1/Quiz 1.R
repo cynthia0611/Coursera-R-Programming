@@ -1,3 +1,4 @@
+####Question 11
 data<-read.table('H:/Desktop/Data Specialist/R programming/Quiz1/rprog_data_quiz1_data/hw1_data.csv',header=TRUE,sep=",")
 
 head(data)
