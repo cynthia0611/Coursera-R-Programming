@@ -70,11 +70,10 @@ an error.
 ####Question 10
 Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this?
 #####Answer
-- x[x > 4] <- 10
-- x[x == 10] <- 4
-- x[x >= 11] <- 4
-- x[x > 10] == 4
-
+```
+x[x == 10] <- 4
+```
+----------------
 ####Question 11
 In the dataset provided for this Quiz, what are the column names of the dataset?
 1, 2, 3, 4, 5, 6
@@ -110,42 +109,58 @@ How many observations (i.e. rows) are in this data frame?
 ```
 153
 ```
-- #####Explanation
-
+#####Explanation
+```
+> nrow(data)
+[1] 153
+```
+------------------------------
 ####Question 14
 Extract the last 2 rows of the data frame and print them to the console. What does the output look like?
 #####Answer
-  > Ozone Solar.R Wind Temp Month Day
-- 152    11      44  9.7   62     5  20
-- 153   108     223  8.0   85     7  25
-
-  > Ozone Solar.R Wind Temp Month Day
-- 152    18     131  8.0   76     9  29
-- 153    20     223 11.5   68     9  30
-
-  > Ozone Solar.R Wind Temp Month Day
-- 152    31     244 10.9   78     8  19
-- 153    29     127  9.7   82     6   7
-
-  > Ozone Solar.R Wind Temp Month Day
-- 152    34     307 12.0   66     5  17
-- 153    13      27 10.3   76     9  18
-
+```
+Ozone Solar.R Wind Temp Month Day
+152    18     131  8.0   76     9  29
+153    20     223 11.5   68     9  30
+```
+#####Explanation
+```
+> tail(data,2)
+Ozone Solar.R Wind Temp Month Day
+152 18 131 8.0 76 9 29
+153 20 223 11.5 68 9 30
+```
+-------------------------
 ####Question 15
 What is the value of Ozone in the 47th row?
 #####Answer
-- 63
-- 21
-- 18
-- 34
-
+```
+21
+```
+#####Explanation
+```
+> data[47,]
+Ozone Solar.R Wind Temp Month Day
+47    21     191 14.9   77     6  16
+```
+-------------------------------------
 ####Question 16
 How many missing values are in the Ozone column of this data frame?
-- 78
-- 9
-- 37
-- 43
-
+#####Answer
+```
+37
+```
+#####Explanation
+```
+#Calculate how many missing data
+> length(which(is.na(data)))
+[1] 44
+#Calculate how many missing date with column name of Ozone
+> datana<-subset(data,is.na(Ozone))
+> nrow(datana)
+[1] 37
+```
+-------------------------------
 ####Question 17
 What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
 - 31.5
