@@ -77,9 +77,8 @@ Ozone, Solar.R, Wind, Temp, Month, Day
 > head(data)
   Ozone Solar.R Wind Temp Month Day
 ```
-
+-------------------------------
 ####Question 12
-----------------------
 Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
 
 #####Answer
@@ -95,7 +94,7 @@ Ozone Solar.R Wind Temp Month Day
 1 41 190 7.4 67 5 1
 2 36 118 8.0 72 5 2
 ```
-
+------------------------------------
 ####Question 13
 How many observations (i.e. rows) are in this data frame?
 - 153
