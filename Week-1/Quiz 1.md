@@ -67,7 +67,7 @@ Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all e
 - x[x > 10] == 4
 
 #####Question 11
----------
+----
 In the dataset provided for this Quiz, what are the column names of the dataset?
 1, 2, 3, 4, 5, 6
 ####Answer
