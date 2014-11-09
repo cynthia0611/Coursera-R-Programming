@@ -84,15 +84,15 @@ Extract the first 2 rows of the data frame and print them to the console. What d
 1    18     224 13.8   67     9  17
 2    NA     258  9.7   81     7  22
 
-    Ozone Solar.R Wind Temp Month Day
+  Ozone Solar.R Wind Temp Month Day
 1    41     190  7.4   67     5   1
 2    36     118  8.0   72     5   2
 
-    Ozone Solar.R Wind Temp Month Day
+  Ozone Solar.R Wind Temp Month Day
 1     9      24 10.9   71     9  14
 2    18     131  8.0   76     9  29
 
-    Ozone Solar.R Wind Temp Month Day
+  Ozone Solar.R Wind Temp Month Day
 1     7      NA  6.9   74     5  11
 2    35     274 10.3   82     7  17
 
@@ -106,19 +106,19 @@ How many observations (i.e. rows) are in this data frame?
 #####Question 14
 Extract the last 2 rows of the data frame and print them to the console. What does the output look like?
 
-    Ozone Solar.R Wind Temp Month Day
+   Ozone Solar.R Wind Temp Month Day
 152    11      44  9.7   62     5  20
 153   108     223  8.0   85     7  25
 
-    Ozone Solar.R Wind Temp Month Day
+   Ozone Solar.R Wind Temp Month Day
 152    18     131  8.0   76     9  29
 153    20     223 11.5   68     9  30
 
-    Ozone Solar.R Wind Temp Month Day
+   Ozone Solar.R Wind Temp Month Day
 152    31     244 10.9   78     8  19
 153    29     127  9.7   82     6   7
 
-    Ozone Solar.R Wind Temp Month Day
+   Ozone Solar.R Wind Temp Month Day
 152    34     307 12.0   66     5  17
 153    13      27 10.3   76     9  18
 
