@@ -77,12 +77,12 @@ In the dataset provided for this Quiz, what are the column names of the dataset?
 - Month, Day, Temp, Wind
 - Ozone, Solar.R, Wind
 
-> data<-read.table('H:/Desktop/Data Specialist/R programming/Quiz1/rprog_data_quiz1_data/hw1_data.csv',header=TRUE,sep=",")
-> data
+data<-read.table('H:/Desktop/Data Specialist/R programming/Quiz1/rprog_data_quiz1_data/hw1_data.csv',header=TRUE,sep=",")
+data
     Ozone Solar.R Wind Temp Month Day
 1      41     190  7.4   67     5   1
 2      36     118  8.0   72     5   2
-> head(data)
+head(data)
   Ozone Solar.R Wind Temp Month Day
 1    41     190  7.4   67     5   1
 2    36     118  8.0   72     5   2
