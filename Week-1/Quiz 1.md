@@ -1,4 +1,3 @@
-
 ####Question 1
 R was developed by statisticians working at
 Johns Hopkins University
