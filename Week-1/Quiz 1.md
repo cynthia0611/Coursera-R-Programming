@@ -9,24 +9,24 @@ R was developed by statisticians working at
 
 #####Question 2
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
-The freedom to study how the program works, and adapt it to your needs.
-The freedom to run the program, for any purpose.
-The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
-The freedom to restrict access to the source code for the software.
+* The freedom to study how the program works, and adapt it to your needs.
+* The freedom to run the program, for any purpose.
+* The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
+* The freedom to restrict access to the source code for the software.
 
 #####Question 3
 In R the following are all atomic data types EXCEPT
-integer
-complex
-numeric
-matrix
+* integer
+* complex
+* numeric
+* matrix
 
 #####Question 4
-If I execute the expression x <- 4 in R, what is the class of the object `x' as determined by the `class()' function?
-real
-numeric
-complex
-matrix
+If I execute the expression x <- 4 in R, what is the class of the object 'x' as determined by the 'class()' function?
+- real
+- numeric
+- complex
+- matrix
 
 #####Question 5
 What is the class of the object defined by the expression x <- c(4, "a", TRUE)?
