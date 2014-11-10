@@ -67,10 +67,9 @@ elements of a vector all must be of the same class
 ####Question 8
 Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[1]] give me?
 #####Answer
-- a numeric vector containing the element 2.
-- a character vector containing the element "2".
-- a list containing a numeric vector of length 1.
-- a list containing the letter "a".
+```
+a numeric vector containing the element 2.
+```
 ------------------------
 ####Question 9
 Suppose I have a vector x <- 1:4 and y <- 2:3. What is produced by the expression x + y?
