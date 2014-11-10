@@ -9,7 +9,8 @@ The University of Auckland
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
 #####Answer
 ```
-The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
+The freedom to improve the program, and release your improvements to the public, 
+so that the whole community benefits.
 ```
 -------------------------
 ####Question 3
