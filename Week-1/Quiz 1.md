@@ -8,10 +8,9 @@ The University of Auckland
 ####Question 2
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
 #####Answer
-* The freedom to study how the program works, and adapt it to your needs.
-* The freedom to run the program, for any purpose.
-* The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
-* The freedom to restrict access to the source code for the software.
+```
+The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
+```
 -------------------------
 ####Question 3
 In R the following are all atomic data types EXCEPT
