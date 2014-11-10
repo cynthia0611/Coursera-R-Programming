@@ -4,7 +4,7 @@ R was developed by statisticians working at
 ```
 The University of Auckland
 ```
-
+-----------------------------
 ####Question 2
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
 #####Answer
@@ -12,47 +12,58 @@ The definition of free software consists of four freedoms (freedoms 0 through 3)
 * The freedom to run the program, for any purpose.
 * The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
 * The freedom to restrict access to the source code for the software.
-
+-------------------------
 ####Question 3
 In R the following are all atomic data types EXCEPT
 #####Answer
-* integer
-* complex
-* numeric
-* matrix
-
+```
+matrix
+```
+----------------------
 ####Question 4
 If I execute the expression x <- 4 in R, what is the class of the object 'x' as determined by the 'class()' function?
 #####Answer
-- real
-- numeric
-- complex
-- matrix
-
+```
+numeric
+```
+----------------------
 ####Question 5
 What is the class of the object defined by the expression x <- c(4, "a", TRUE)?
 #####Answer
-- numeric
-- character
-- mixed
-- logical
-
+```
+character
+```
+#####Explanation
+```
+> x <- c(4, "a", TRUE)
+> class(x)
+[1] "character"
+```
+------------------
 ####Question 6
 If I have two vectors x <- c(1,3, 5) and y <- c(3, 2, 10), what is produced by the expression cbind(x, y)?
 #####Answer
-- a numeric matrix with 3 rows and 2 columns
-- a 3 by 3 matrix
-- a 2 by 3 matrix
-- a vector of length 3
-
+```
+ a numeric matrix with 3 rows and 2 columns
+```
+#####Explanation
+```
+> x <- c(1,3, 5)
+> y <- c(3, 2, 10)
+> cbind(x,y)
+     x  y
+[1,] 1  3
+[2,] 3  2
+[3,] 5 10
+```
+-----------------------
 ####Question 7
 A key property of vectors in R is that
 #####Answer
-- a vector cannot have have attributes like dimensions
-- the length of a vector must be less than 32,768
-- elements of a vector can be of different classes
-- elements of a vector all must be of the same class
-
+```
+elements of a vector all must be of the same class
+```
+------------------------------
 ####Question 8
 Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[1]] give me?
 #####Answer
@@ -60,15 +71,21 @@ Suppose I have a list defined as x <- list(2, "a", "b", TRUE). What does x[[1]] 
 - a character vector containing the element "2".
 - a list containing a numeric vector of length 1.
 - a list containing the letter "a".
-
+------------------------
 ####Question 9
 Suppose I have a vector x <- 1:4 and y <- 2:3. What is produced by the expression x + y?
-an error.
 #####Answer
-- a numeric vector with the values 1, 2, 5, 7.
-- a numeric vector with the values 3, 5, 3, 4.
-- an integer vector with the values 3, 5, 5, 7.
-
+```
+an integer vector with the values 3, 5, 5, 7.
+```
+#####Explanation
+```
+> x <- 1:4
+> y <- 2:3
+> x+y
+[1] 3 5 5 7
+```
+--------------------
 ####Question 10
 Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this?
 #####Answer
