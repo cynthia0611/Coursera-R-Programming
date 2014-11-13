@@ -97,7 +97,7 @@ Which symbol in the above function is a free variable?
 f 			
 z 			
 d 	Inorrect 	0.00 	
-L 			
+L 	Inorrect 	0.00		
 g 			
  
 
@@ -138,6 +138,6 @@ In R, what is the parent frame?
  
 It is the package search list 			
 It is the environment in which a function was defined 	Inorrect 	0.00 	
-It is the environment in which a function was called 			
+**It is the environment in which a function was called** 			
 It is always the global environment 			
  
