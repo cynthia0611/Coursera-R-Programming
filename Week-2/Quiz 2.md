@@ -7,9 +7,9 @@ cube <- function(x, n) {
 }
 ```
 What is the result of running
-
+```
 cube(3)
-
+```
 in R after defining this function?
 Your Answer 		Score 	Explanation
 An error is returned because 'n' is not specified in the call to 'cube' 			
