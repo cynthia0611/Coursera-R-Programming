@@ -94,10 +94,10 @@ h <- function(x, y = NULL, d = 3L) {
 ```
 Which symbol in the above function is a free variable?
  
-f 			
+**f** 			
 z 			
-d 	Inorrect 	0.00 	
-L 	Inorrect 	0.00		
+d 		
+L 			
 g 			
  
 
