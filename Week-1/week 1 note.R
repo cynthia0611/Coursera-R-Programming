@@ -65,28 +65,3 @@ y-x #Time difference of -224 days
 # as.Date
 # as.POSIXlt
 # as.POSIXct
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
