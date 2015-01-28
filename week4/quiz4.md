@@ -5,3 +5,4 @@ A vector with the numbers 1, 1, 2, 4, 1
 Because the `set.seed()' function is used, `rpois()' will always output the same vector in this code.
 
 Q2:
+```
