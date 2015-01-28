@@ -55,6 +55,7 @@ Question 9
 When using 'system.time()', what is the user time?
 
 Question 10
-If a computer has more than one available processor and R is able to take advantage of that, then which of the following is true when using 'system.time()'?
+If a computer has more than one available processor and R is able to take advantage of that, 
+then which of the following is true when using 'system.time()'?
 
 
