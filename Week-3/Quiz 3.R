@@ -80,6 +80,9 @@ lapply(l, sum)
 
 abs(mean(split(mtcars, mtcars$cyl)$'4'$hp) - mean(split(mtcars, mtcars$cyl)$'8'$hp))
 # 126.5779
+> abs(mean(mtcars$hp[mtcars$cyl==4])-mean(mtcars$hp[mtcars$cyl==8]))
+
+
 
 # Q5
 debug(ls)
