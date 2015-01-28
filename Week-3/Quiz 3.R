@@ -71,6 +71,8 @@ lapply(l, sum)
 
 # answer is: sapply(split(mtcars$mpg, mtcars$cyl), mean)
 
+# also: with(mtcars, tapply(mpg, cyl, mean))
+
 # Q4
 # the absolute difference between
 # the average horsepower of 4-cylinder cars and 
